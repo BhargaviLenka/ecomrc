@@ -1,0 +1,171 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+    
+}
+
+.logo {
+    width: 170px;
+    height: 100px;
+}
+
+body {
+    background-color: black;
+
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    overflow-x: hidden;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-image: url("bgimg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+.grad{
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background: rgba(0,0,0,.5);
+    background-image: linear-gradient(0deg,rgba(0,0,0,.8) 0,transparent 60%,rgba(0,0,0,.8));
+
+}
+.red {
+    background-color: red;
+    padding: 10px;
+    width: 8vw;
+    color: white;
+
+}
+
+h1 {
+    color: white;
+    width: 45vw;
+    margin: auto;
+    letter-spacing: 2px;
+}
+
+h2 {
+    color: white;
+}
+
+h3 {
+    color: white;
+    width: 43vw;
+    margin: auto;
+
+}
+
+.in {
+    height: 8vh;
+    width: 40vw;
+}
+
+p {
+    color: white;
+    width: 70vw;
+    margin: auto;
+}
+
+.nav-bottom {
+    width: 58vw;
+    height: 60vh;
+    margin: auto;
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin-top: 12%;
+    /* margin-bottom: 30%; */
+    margin-left: 28%;
+}
+
+.mail {
+    border-radius: 2px;
+    /* width: 60vw; */
+}
+
+.int {
+    height: 8vh;
+    width: 10vw;
+}
+
+.enjoy {
+    height: 65vh;
+    width: 100vw;
+    display: flex;
+    border: 1px solid;
+}
+
+.part1,
+.part2 {
+    width: 50vw;
+    height: 65vh;
+    margin: auto;
+    display: ;
+    /* align-items: center; */
+}
+#part0{
+    background-image: url("girl.jpg");
+    /* display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */ */
+    margin-top: 200px;
+}
+#tv {
+    z-index: 1;
+    position: absolute;
+}
+#tvdata{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20vh;
+}
+#vd {
+    position: relative;
+    z-index: -1;
+    margin-top: 100px;
+    margin-left: 86px;
+    height: 260px;
+}
+
+.opt1 {
+    color: white;
+    width: 6vw;
+    height: 5vh;
+    background-color: black;
+    border: 1px solid white;
+}
+#girl{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid rgb(192, 184, 184);
+    border-radius: 10px;
+    width: 400px;
+    height: 100px;
+    margin-left: 0;
+    background-color: rgb(10, 5, 5);
+}
+#down{
+    margin-top: 360px;
+    margin-left: 115px;
+}
